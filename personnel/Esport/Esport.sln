@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esport", "Esport\Esport.csproj", "{311E26DA-BB2B-461F-ABF4-5955E518048D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D259B8CA-164B-428B-86E5-E95B4C1027DE} = {D259B8CA-164B-428B-86E5-E95B4C1027DE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSeries", "DataSeries\DataSeries.csproj", "{D259B8CA-164B-428B-86E5-E95B4C1027DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311E26DA-BB2B-461F-ABF4-5955E518048D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311E26DA-BB2B-461F-ABF4-5955E518048D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311E26DA-BB2B-461F-ABF4-5955E518048D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311E26DA-BB2B-461F-ABF4-5955E518048D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D259B8CA-164B-428B-86E5-E95B4C1027DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D259B8CA-164B-428B-86E5-E95B4C1027DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D259B8CA-164B-428B-86E5-E95B4C1027DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D259B8CA-164B-428B-86E5-E95B4C1027DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
