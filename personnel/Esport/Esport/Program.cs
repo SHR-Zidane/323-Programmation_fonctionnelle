@@ -47,4 +47,5 @@ static void Main(string[] args)
         Console.WriteLine($"CS2      : {cs2.Count} matchs");
     if (game == null || game == "lol")
         Console.WriteLine($"LoL      : {lol.Count} matchs");
+    Console.ReadLine();
 }
