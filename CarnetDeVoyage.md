@@ -284,18 +284,130 @@ Pour commencer, on regarde la [théorie de l'agrégation](./supports/source/04-R
 
 Et ensuite, on met tout cela en pratique avec [l'exercice 5](./exos/fil-rouge/esport/05-classement-fold/) du fil rouge.
 
-Situation en fin de matinée:
-|           | Présent |  5.1  |  5.2  |  5.3  |
-| --------- | :-----: | :---: | :---: | :---: |
-| albert    |         |       |       |       |
-| damienc   |         |       |       |       |
-| damienr   |         |       |       |       |
-| erdem     |         |       |       |       |
-| gianmarco |         |       |       |       |
-| gillian   |         |       |       |       |
-| kiril     |         |       |       |       |
-| sacha     |         |       |       |       |
-| snehan    |         |       |       |       |
-| theophile |         |       |       |       |
-| tony      |         |       |       |       |
-| zidane    |         |       |       |       |
+#### Bilan
+
+Un mot : Inquiétude
+
+J'observe de nombreux signaux dérangeant:
+
+- Très (trop) peu de commits effectués sur une durée de plus de 1h30 de pratique
+- Des commits "miracle", genre trios nouveaux fichiers d'un bloc qui résolvent en une fois un problème complexe
+- Des commits non contrôlés, qui réintroduisent la classe DataPoint qu'on avait convenu d'abandonner
+- Des pratiques contraires à celle qui vous ont été enseignées (déclaration de classe dans un bloc de code par exemple)
+- Du code d'un niveau qui ne me semble pas compatible avec celui de son auteur présumé
+- Des fenêtres qui disparaissent de l'écran, ou des discussions qui s'arrêtent dès que je m'approche à moins de deux mètres
+- L'absence de traces d'activités de rattrapage pour ceux qui étaient "absents la dernière fois"
+- Le peu de temps qui me semble investi dans la révision en vue des checkpoints. Les résultats du dernier en date tendent à confirmer cette impression.
+
+Ce qui m'inquiète n'est pas la note que vous obtiendrez à ce module: avec le nombre de notes obtenues sur les deux premières années et vos moyennes actuelle, ce n'est pas une mauvaise note de module qui va vous faire couler.  
+Ce qui m'inquiète, me désole et me fatigue, c'est la manière de fonctionner de certains, qui relève plus de l'écolier que du professionnel. Ce qui était acceptable en début de première année ne l'est plus maintenant que vous êtes à quelques mois de partir en stage en entreprise.  
+
+L'IA n'est **PAS** votre amie si vous l'utilisez pour faire le travail que je vous demande à votre place.  
+
+Comme je l'ai dit ce matin, ce feedback ne s'applique pas entièrement à chacun d'entre vous. Ceux qui ne sont que pas - ou peu - concernés sauront se reconnaître.
+
+En termes d'avancement dans l'exercice 5, il est globalement inexistant. Il y a quatre implémentations de MME en tout dont deux ne me semblent pas avoir été écrites par leurs propriétaires. En d'autres termes: la partie 5.1 est très partiellement entamée et c'est tout.
+
+## Etape 6
+
+### Lundi 28 septembre
+
+Remise en route après deux semaines d'inactivité sur le projet:
+
+- Bien faire le point de situation de son projet: après la semaine prochaine (donc dans 8 périodes), on arrive au 80%
+- Compléter la partie bilan du rapport si votre planification initiale prévoyait du travail lundi passé et qu'il n'a pas été fait...
+- Je me renseigne sur Avalonia
+- Chacun avance et je tourne parmi vous
+
+#### Bilan
+
+- J'ai pu passer vers toutes les personnes que je n'ai pas vues la dernière fois
+- J'ai eu des réponses diverses sur Avalonia. Rappel: le contenu de votre repo doit me permettre d'exécuter votre app. Si je ne connais pas la techno, votre rapport doit me guider!
+- La consigne concernant le jdt a bien passé: tous (sauf un -> joker brûlé) l'ont mis à jour
+
+### Mercredi 30
+
+On fait le checkpoint #5 qui porte principalement sur la réduction.
+
+On fait l'évaluation formative (correction en DoJo après la pause).
+
+Chacun continue les étapes de ESportApp
+
+#### Bilan
+
+- Il y a eu plus d'une heure à disposition après la correction de la formative.
+- Il y a 9 repos sur 12 qui n'ont aucune trace d'activité.
+- Il n'y a aucun commit "WIP" en vue d'être repris plus tard en dehors du cours.
+- Aucune note n'a été prise durant la correction de la formative
+- Aucune photo n'est prise tu tableau blanc
+
+Plus généralement (mais cela a été le cas aujourd'hui):
+- Chaque explication que je donne est suivie d'une invitation aux questions. Il n'y en a pour ainsi dire jamais.
+- Chaque question de type "Avez-vous compris ?" est collectivement répondue par oui
+- Les demandes d'aide/explications individuelles durant les moment d'exercice sont rares
+
+## Etape 7
+
+### Lundi 5 octobre
+
+- Je demande une livraison d'ici à vendredi 9 (par oral et par message Teams) sur la base de laquelle je pourrai faire un retrour "à 80%", au début des vacances.
+- Je discute avec quelques-un
+
+### Mercredi 7 octobre
+
+Epreuve sommative:
+- Un fichier .zip est fourni par un devoir Teams. Le dézipper localement.
+- Le dossier résultant contient un repo git. Si vous travaillez avec Github Desktop, vous pouvez l'ajouter localement (
+  `File > Add local repository...`).
+- Le dossier `demo` contient un exécutable du programme demandé
+- Le dossier `data` contient des données de test
+  - On fait une copie des fichiers dans un dossier "newer" pour avoir des dates différentes
+- Ouvrir la solution dans `src` et lancer le programme. Il affiche l'aide de l'utilitaire à coder, avec `John Doe` comme
+  auteur.
+- Remplacez `John Doe` par votre nom dans le code source et faites un commit nommé
+  `feat(Help): Changer le nom de l'auteur`.
+- **NE PUBLIEZ JAMAIS CE REPO SUR GITHUB (⛔ DO NOT PUSH)**, cela serait considéré comme une tentative de communication.
+- Le code fourni une série de `// TODO` qui vous indique le travail à réaliser. Ils sont numérotés pour vous guider sur
+  un chemin possible de réalisation. Vous n'êtes pas obligé de suivre cet ordre scrupuleusement.
+- Faites un commit à chaque fois que vous avez accompli un `// TODO`, mais (rappel) **ne publiez pas le repo**.
+- Si, en cours route, vous êtes bloqué par un problème que vous ne savez pas comment traiter, vous pouvez "acheter" la
+  réponse auprès de votre prof. Le nombre de points du TODO est perdu.
+- À la fin du temps imparti :
+    - Sauvegarder vos dernières modifications
+    - Faites un dernier commit
+    - Quittez Visual Studio
+    - Faites un .zip du dossier
+    - Renvoyez ce .zip à votre enseignant (par le devoir Teams)
+    - ⚠ Après confirmation de réception, SUPPRIMER le dossier ET le zip de tout support (y compris la corbeille)
+- Si vous terminez avant 12h15, vous travaillez sur votre projet
+
+## Etape 8
+
+### Lundi 26 octobre
+
+- Confirmation du délai de livraison: ven 30 octobre
+- Feedback à 80% poussé sur tous les repos. Ils sont trois à ne pas avoir fait de livraison.
+- Discussion avec certains. Je pose les questions techniques à la majorité
+
+- Annonce par Teams: le checkpoint de mercredi aura 20 points, ce qui donne une chance à plusieurs de remonter leur note
+
+### Mercredi 28 octobre
+
+Je rends les feuilles d'évaluation du [test sommatif](https://eduvaud.sharepoint.com/:f:/r/sites/ETML_INF-GRP3D-26-27_Teams-I323-Programmationfonctionnelle/Documents%20partages/Test%20Sommatif?d=wbd4e0a6a0b654befa46d4176c80b4edc&csf=1&web=1&e=t9B5pl) et on passe en revue le corrigé de l'épreuve KTD.
+
+On voit ensemble la théorie de [la pureté, de l'immutabilité](./supports/source/06-PureteImmutabilite.md) et des [méthodes d'extensions](./supports/source/05-Extension.md).
+
+Temps librement géré. Les activités possibles sont:
+- Etude approfondie des trois sujets abordés: seul, en groupe, avec moi ou avec une IA.
+- Mise en pratique au travers de l'exercice [running](./exos/running/) du catalogue
+- Pratique/révision/approfondissement plus général en effectuant un des exercices du [catalogue](./exos/)
+- Travail sur le projet
+- Remplissage du document de feedback
+
+11h25: pause et aération
+11h30: checkpoint #6 (reprise de l'activité précédente après rendu)
+11h50: corrigé
+12h05: revue du [feedback sur le module](https://eduvaud.sharepoint.com/:w:/r/sites/ETML_INF-GRP3D-26-27_Teams-I323-Programmationfonctionnelle/Documents%20partages/Feedback%20module.docx?d=w5748b320977a4bbfab2467aae883b2c2&csf=1&web=1&e=RnIPHM)
+
+## Fin du voyage
+... mais un autre commence lundi !
